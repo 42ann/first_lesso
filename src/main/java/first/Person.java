@@ -29,5 +29,7 @@ public class Person {
             System.out.println("Грегори: *самозабвенные звуки жевания*");
     }
 
+
+
 }
 

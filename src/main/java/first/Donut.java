@@ -10,8 +10,13 @@ public class Donut {
         sherlock.eatPermission();
         mycroft.eatPermission();
         lestrade.eatPermission();
-
-
-
+        int donut = 5;
+        while (donut > -1) {
+            System.out.println("Пончиков в комнате: " + donut);
+            --donut;
+        }
+        if (donut < 1 ){
+            System.out.println("Майкрофт: ...");
+        }
     }
 }
